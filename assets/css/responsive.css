@@ -65,6 +65,18 @@
         padding: 20px 0;
     }
 
+    .link-SC-wrapper{
+        flex-direction: column;
+    }
+
+    .link-SC{
+        font-size: 15px !important;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 100vw;
+    }
+
     .about-item{
         padding-left: 10px;
     }

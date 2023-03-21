@@ -125,6 +125,12 @@ html,body{
     }
 }
 
+@keyframes loadingRotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .loading{
     display: flex;
     align-items: center;
@@ -138,11 +144,12 @@ html,body{
 .loading img:first-child{
   width: 140px;
   transition: all 0.5s ease-in-out;
-  transform: translateY(30px);
+  /* transform: translateY(30px); */
+  animation: loadingRotate 6s linear infinite;
 }
 
 .loading img:last-child{
-  max-width: 65px;
+  max-width: 115px;
 }
 
 /* UPDATE ROADMAP */

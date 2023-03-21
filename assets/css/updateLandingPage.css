@@ -4,7 +4,8 @@
 }
 
 .intro-main {
-    height: calc(100% - 74px);
+    /* height: calc(100% - 74px); */
+    padding-top: 67px;
 }
 
 .intro-wrapper{
